@@ -1,0 +1,64 @@
+footer {
+    width: 100%;
+    position: relative;
+}
+
+.footer {
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 2% 0%;
+}
+
+.footer .logoArea {
+    width: 500px;
+    vertical-align: top;
+}
+
+.footer .logoArea .logo {
+    display: inline-block;
+    width: 190px;
+    font-size: 0;
+    vertical-align: top;
+}
+
+.logolink {
+    display: inline-block;
+    width: calc(100% - 200px - 2%);
+    margin: 0 auto;
+    margin-right: 0%;
+    align-items: center;
+    vertical-align: top;
+    padding-left: 5%;
+}
+
+.logolink .link {
+    display: inline-block;
+    writing-mode: vertical-lr;
+    font-size: 1rem;
+    color: #6C6C6C;
+    padding-right: 3%;
+    letter-spacing: 36px;
+}
+
+.link a {
+    color: #6C6C6C;
+}
+
+.logolink .link:last-child {
+    padding-left: 0%;
+}
+
+.footer .shareArea {
+    width: 230px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+.footer .shareArea .icon {
+    width: 25%;
+    font-size: 0;
+}

@@ -1,0 +1,215 @@
+.Banner {
+    padding-top: 1%;
+    position: relative;
+}
+
+.Banner::after {
+    content: '';
+    position: absolute;
+    bottom: 0%;
+    left: 0%;
+    width: 97.9%;
+    padding-top: 7%;
+    background-color: #2E2E2E;
+}
+
+.Banner .row {
+    align-items: center;
+}
+
+.linkArea {
+    width: 255px;
+    margin: 0 auto;
+}
+
+.linkArea .bannerlogo {
+    width: 80%;
+    margin: 0 auto;
+    font-size: 0;
+    padding-bottom: 10%;
+}
+
+.linkblock ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.linkblock ul li {
+    width: 25%;
+    text-align: center;
+}
+
+.linkblock ul li a:hover {
+    text-decoration: none;
+}
+
+.linkblock ul li .link {
+    margin: auto;
+    writing-mode: vertical-lr;
+    font-size: 1.3rem;
+    color: #6C6C6C;
+    font-family: 'Noto Serif TC', serif;
+    text-align: center;
+}
+
+.bannerSwiper {
+    width: 95%;
+    margin: 0 auto;
+    margin-left: 0%;
+    overflow: hidden;
+}
+
+.bannerSwiper .swiper-pagination-fraction {
+    bottom: unset;
+    top: 0%;
+    left: -50px;
+    writing-mode: vertical-lr;
+    width: 100%;
+}
+
+.swiper-pagination-current,
+.swiper-pagination-total {
+    writing-mode: horizontal-tb;
+}
+
+.bannerSwiper .InnerImg {
+    width: 100%;
+    padding-top: 110%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.page01 {
+    padding: 14% 0%;
+    background-color: #2E2E2E;
+}
+
+.page01 .pageBox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 71.61458%;
+    margin: 0 auto;
+}
+
+.page01 .pageBox .leftpic {
+    width: 328px;
+    font-size: 0;
+}
+
+.page01 .pageBox .rightTxt {
+    width: 586px;
+    text-align: left;
+}
+
+.page01 .pageBox .rightTxt p {
+    color: #fff;
+    font-size: 1.3rem;
+    font-family: 'Noto Serif TC', serif;
+    margin: 0;
+    line-height: 150%;
+}
+
+.page01 .pageBox .rightTxt .top {
+    padding-bottom: 10%;
+}
+
+.page02 {
+    padding-top: 10%;
+    padding-bottom: 3%;
+}
+
+.pageSwiperArea {
+    width: 87.29166%;
+    margin: 0 auto;
+    margin-right: 0%;
+    transform: translateX(7%);
+    overflow-x: hidden;
+    padding-bottom: 3%;
+}
+
+.swiper-horizontal>.swiper-scrollbar {
+    bottom: 8px;
+}
+
+.pageSwiperArea .swiper-scrollbar-drag {
+    width: 17px !important;
+    height: 17px !important;
+    position: relative;
+    background-color: #fff;
+    border: 4px solid #C4C4C4;
+    border-radius: 100%;
+    left: 0;
+    top: -5px;
+    cursor: pointer;
+}
+
+.pageSwiperArea .icepic {
+    width: 100%;
+    padding-top: 120%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    margin-bottom: 5%;
+}
+
+.pageSwiperArea .iceText {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.iceText .arrow {
+    width: 5%;
+    min-width: 100px;
+    font-size: 0;
+}
+
+.iceText .txt {
+    color: #424242;
+    font-size: 1.1rem;
+    text-align: right;
+    line-height: 120%;
+    font-family: 'Noto Serif TC', serif;
+}
+
+.page02 .ReadMore {
+    width: 150px;
+    margin: 0 auto;
+    margin-left: 19%;
+    margin-top: 5%;
+    border: 1px solid #424242;
+    padding: 0.5%;
+    font-size: 14px;
+    text-align: center;
+    color: #9A9A9A;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.page02 .ReadMore:hover {
+    background-color: #424242;
+    color: #fff;
+    text-decoration: none;
+}
+
+.page03 {
+    width: 100%;
+    position: relative;
+    padding-bottom: 10%;
+}
+
+.mySwiper2 {
+    position: relative;
+}
+
+.page03 .pagepic {
+    width: 100%;
+    padding-top: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
